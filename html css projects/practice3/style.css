@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  padding: 40px 65px;
+}
+
+#nav-part1 {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+#nav-part2 {
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+}
+
+i {
+  color: black;
+  font-size: 18px;
+}
+
+#nav h3 {
+  font-size: 25px;
+  font-weight: 600;
+}
+#nav h2 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+#nav h4 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+#content {
+  padding: 40px 65px;
+}
+
+#content h3 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+#content h1 {
+  margin-top: 40px;
+  font-size: 130px;
+  line-height: 140px;
+  font-weight: 600;
+}
+
+#case {
+  padding: 40px 60px;
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#case h4,
+#case h5 {
+  font-size: 26px;
+
+  font-weight: 600;
+}
+
+#right {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+#line {
+  height: 2px;
+  width: 100px;
+  background-color: black;
+}
+
+#projects {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 45px;
+  gap: 80px;
+}
+
+.elem {
+  width: 50%;
+}
+
+.elem-img {
+  height: 600px;
+  background-color: red;
+  width: 100%;
+  border-radius: 30px;
+  background-size: cover;
+  padding: 70px;
+  background-position: center;
+}
+
+#img1 {
+  background-image: url("https://images.unsplash.com/photo-1512445854790-1654cf4b792a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+#img2 {
+  background-image: url("https://previews.123rf.com/images/yoshi28/yoshi281601/yoshi28160100009/51616141-laptop-computer-and-application-button.jpg");
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0px;
+}
+
+.bottom i {
+  padding: 15px 30px;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 50px;
+}
+.bottom i:hover {
+  background-color: black;
+  color: white;
+}
+.bottom h2 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.bottom h4 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #969696;
+}
