@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+}
+
+#left {
+  height: 100%;
+  width: 40%;
+  position: relative;
+}
+
+#lnav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 30px;
+}
+
+#lnavr {
+  display: flex;
+  align-items: center;
+}
+
+#lnavr a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+#lnavr i {
+  color: royalblue;
+}
+
+#left #textcenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#textcenter h1 {
+  font-size: 90px;
+  font-weight: 800;
+}
+
+#textcenter p {
+  opacity: 0.6;
+  font-size: 12px;
+  line-height: 20px;
+  margin: 20px 0px;
+}
+
+#textcenter a {
+  text-decoration: none;
+  color: #000;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+  font-size: 13px;
+  font-weight: 600;
+  opacity: 0.6;
+}
+
+#right {
+  width: 60%;
+  height: 100%;
+  background-color: yellow;
+}
+
+#rtop {
+  width: 100%;
+  height: 50%;
+  background-color: royalblue;
+  display: flex;
+}
+
+#rbottom {
+  width: 100%;
+  height: 50%;
+  background-image: url(https://images.unsplash.com/photo-1499088513455-78ed88b7a5b4?q=80&w=1978&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+
+  background-position: center;
+  background-size: cover;
+}
+
+#rtopleft {
+  width: 55%;
+  background-image: url(https://images.unsplash.com/photo-1488462237308-ecaa28b729d7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA4fHxvcmFuZ2UlMjBmcnVpdCUyMHNpbmdsZXxlbnwwfHwwfHx8MA%3D%3D);
+  height: 100%;
+  background-position: bottom;
+  background-size: cover;
+}
+
+#rtopright {
+  width: 45%;
+  background-image: url(https://plus.unsplash.com/premium_photo-1693266290145-44e340b8a920?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fG9yYW5nZSUyMGZydWl0JTIwc2luZ2xlfGVufDB8fDB8fHww);
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 541px) {
+  #main {
+    flex-direction: column;
+  }
+  #main #left {
+    width: 100%;
+  }
+
+  #main #right {
+    width: 100%;
+  }
+}
