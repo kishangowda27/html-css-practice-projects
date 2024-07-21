@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #fff;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+}
+
+#nav {
+  height: 140px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 70px;
+}
+
+#nav-part2 {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  padding-right: 100px;
+  justify-content: space-between;
+}
+
+#nav h1 {
+  font-size: 28px;
+  text-transform: capitalize;
+  display: flex;
+  align-self: center;
+}
+
+#nav i {
+  font-size: 25px;
+  margin-right: 5px;
+}
+
+#nav h5 {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+#nav img {
+  height: 140px;
+}
+
+#line {
+  width: 80px;
+  height: 2px;
+  background-color: red;
+}
+
+#content {
+  width: 100%;
+  height: calc(100% - 140px);
+  /* background-color: lightblue; */
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+#left {
+  width: 35%;
+  height: 100%;
+  position: relative;
+  /* background-color: blue; */
+}
+#center {
+  width: 24%;
+  height: 95%;
+  padding-top: 60px;
+  /* background-color: red; */
+}
+#right {
+  width: 35%;
+  height: 100%;
+  padding: 300px 110px;
+  /* background-color: blue; */
+}
+
+#left h1 {
+  font-size: 60px;
+  padding-top: 20px;
+  padding-left: 80px;
+  line-height: 90px;
+  font-weight: 700;
+  margin: 40px 0px;
+}
+
+#left span {
+  color: red;
+  font-weight: 500;
+}
+
+#left p {
+  font-size: 20px;
+  line-height: 20px;
+  width: 70%;
+  padding-left: 80px;
+  margin-bottom: 40px;
+}
+
+#left button {
+  background-color: rgb(206, 34, 34);
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+  margin-left: 100px;
+}
+
+#left button i {
+  margin-right: 7px;
+}
+
+.heart i {
+  font-size: 30px;
+  color: rgb(210, 48, 48);
+  position: absolute;
+  left: 43%;
+  bottom: 34.5%;
+}
+
+#center-bg {
+  /* background-color: blue; */
+  height: 90%;
+  width: 100%;
+  border-top-left-radius: 1000px;
+  border-top-right-radius: 1000px;
+
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJBnEZphKv5KvNe-5AOn3KyKmiquB4ODbjRQ&s);
+  background-size: cover;
+  background-position: center;
+  filter: blur(3px);
+  z-index: -1;
+}
+
+#content > img {
+  height: 100%;
+  position: absolute;
+  left: 36%;
+  bottom: 5%;
+  z-index: 1;
+}
+
+#right-elems {
+  /* background-color: red; */
+  width: 350px;
+}
+
+#elem1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  /* background-color: blueviolet; */
+  border-bottom: 1px solid white;
+}
+
+#elem1 h1 {
+  font-size: 24px;
+  font-weight: 600;
+  opacity: 0.6;
+}
+
+#elem1 i {
+  font-size: 24px;
+}
+
+#elem2 h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  padding-top: 15px;
+}
+
+#elem2 p {
+  width: 70%;
+  font-size: 17px;
+  opacity: 0.6;
+}
